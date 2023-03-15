@@ -16,7 +16,7 @@
     <div id="penalty" style="color:crimson">
         Penalty is zero
     </div>
-    <div style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">
+    <div style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif" onclick="help()">
         Click for help
     </div>
     <div id="help">
@@ -101,7 +101,7 @@
 
 			}
 			else if(position == catLocation){
-				document.getElementById(imgId).src = "Tiger.jpg";
+				document.getElementById(imgId).src = "tiger.jpg";
 				gameOver = true;
 				penalty += 3;
 			}
